@@ -33,7 +33,7 @@ const Footer = () => {
          borderLeft={['none', '1px solid white']}
          borderRight={['none', '1px solid white']}>
          <Heading color={'purple.300'} pt={'4'} size={'md'} textTransform={'uppercase'} textAlign={'center'}>
-         Antragni
+         Antaragni
          </Heading>
          <Text>all rights reserved</Text>
         </VStack>

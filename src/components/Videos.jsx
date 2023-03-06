@@ -24,7 +24,7 @@ const Videos = () => {
                 >
                 </video>
                 <VStack alignItems={'flex-start'} p={['2', '8']} overflow={"auto"}>
-                    <Heading textTransform={'uppercase'}>Antragni IITK Official AfterMovie</Heading>
+                    <Heading textTransform={'uppercase'}>Antaragni IITK Official AfterMovie</Heading>
                     <Text>Antaragni - the annual cultural festival of IIT Kanpur - is one of the
                      largest and most anticipated festivals throughout Asia. Translated literally to 'The Fire Within',
                       everyone associated will feel inside. Continuing its rich legacy of 55 years, Antaragni combines the 
@@ -41,7 +41,7 @@ const Videos = () => {
                 colorScheme={"purple"}
                 onClick={() => setVideoSrc(antragni21)}
                 textTransform={'uppercase'}>
-                Antragni 21
+                Antaragni 21 AfterMovie
             </Button>
 
                 {
@@ -51,7 +51,7 @@ const Videos = () => {
                             colorScheme={"purple"}
                             onClick={() => setVideoSrc(item)}
                             textTransform={'uppercase'}>
-                            Antragni {19 - index}
+                            Antaragni {19 - index} AfterMovie
                         </Button>
                     ))
                 }
