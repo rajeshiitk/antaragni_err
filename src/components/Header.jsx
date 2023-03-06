@@ -25,16 +25,16 @@ const Header = () => {
           <DrawerBody>
             <VStack alignItems={'flex-start'} >
               <Button onClick={onClose} variant={"ghost"} colorScheme='purple'>
-                <Link to={'/'}>Home</Link>
+                <Link to={'/antaragni'}>Home</Link>
               </Button>
               <Button onClick={onClose} variant={"ghost"} colorScheme='purple'>
-                <Link to={'/videos'}>After Movies</Link>
+                <Link to={'/antaragni/videos'}>After Movies</Link>
               </Button>
               <Button onClick={onClose} variant={"ghost"} colorScheme='purple'>
-                <Link to={'/videos?category=free'}>Gallery</Link>
+                <Link to={'/antaragni/videos?category=free'}>Gallery</Link>
               </Button>
               <Button onClick={onClose} variant={"ghost"} colorScheme='purple'>
-                <Link to={'/upload'}>Share Memories</Link>
+                <Link to={'/antaragni/upload'}>Share Memories</Link>
               </Button>
             </VStack>
 

@@ -11,12 +11,12 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path='/' element={ <Layout />} >
+        <Route path='/antaragni' element={ <Layout />} >
         <Route index element ={<Home />} />
-        <Route path='/videos' element={<Videos />} />
-        <Route path='/upload' element={<Upload />} />
-        <Route path='/login' element={<Login />} />
-        <Route path='/signup' element={<Signup />} />
+        <Route path='/antaragni/videos' element={<Videos />} />
+        <Route path='/antaragni/upload' element={<Upload />} />
+        <Route path='/antaragni/login' element={<Login />} />
+        <Route path='/antaragni/signup' element={<Signup />} />
         <Route path='about' element={<About />} />
         </Route>
 
