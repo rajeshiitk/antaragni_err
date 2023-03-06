@@ -1,0 +1,12 @@
+#social-link Button {
+    animation: upDown 1s infinite linear alternate;
+
+}
+
+   
+@keyframes upDown {
+    to {
+      transform: translateY(-0.4rem);
+    }
+  }
+  
